@@ -1,7 +1,7 @@
 # **covid-19-watcher**
 
 ## About the project:
-> covid-19-watcher was developed by Ali Polat in August 2021.
+> covid-19-watcher was developed by Ali Polat in August 2021 using reactjs.
 
 > The aim of the project is to show the covid-19 status of all countries, the entire daily covid 19 status during the pandemic of the countries selected from the Select field is visible in the table.
 
