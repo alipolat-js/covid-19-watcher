@@ -8,9 +8,9 @@ const Total = () => {
   useEffect(() => {
     const getTotalData = async () => {
       const data = await fetchTotalData();
-      settotal({data})
+      settotal(data)
     }
-
+    
     getTotalData();
   }, [])
   
