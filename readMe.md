@@ -30,3 +30,9 @@
 **_Ali POLAT_**
 
 **_There is no license. You can clone the project and use it as you wish. Good luck everyone_**
+
+
+
+
+
+export NODE_OPTIONS=--openssl-legacy-provider
