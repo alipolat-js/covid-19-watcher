@@ -5,7 +5,7 @@ import './style.scss'
 
 import Loader from '../Loader'
 
-const WatcherChart = (country) => {
+const ApexChart = (country) => {
   const [dailyData, setDailyData] = useState([]);
   const [loader, setLoader] = useState(false)
   useEffect(() => {
@@ -47,7 +47,7 @@ const WatcherChart = (country) => {
           }}
           series={[
             {
-              name: "Case",
+              name: "Cases",
               data: dailyData.map(item => item.Confirmed)
             },
             {
@@ -67,7 +67,4 @@ const WatcherChart = (country) => {
   )
 }
 
-// deaths
-// recovered
-// confirmed
-export default WatcherChart
+export default ApexChart

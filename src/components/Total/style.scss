@@ -1,0 +1,43 @@
+@import '../../styles/main.scss';
+
+.main-container{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  
+  .total-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 500px;
+    padding: 1rem .5rem;
+    border-radius: 1rem 1rem;
+    background-color: rgba(0, 0, 0, 0.767);
+    color: rgb(255, 255, 255);
+
+    .items{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      width: 100%;
+      text-align: center;
+  
+      .divider{
+        width: 4px;
+        height: 60px;
+        margin: 1rem;
+        border-radius: 2px;
+        background-color: rgb(255, 255, 255);
+      }
+
+      .item-count{
+        color: rgb(224, 224, 224);
+      }
+    }
+  }
+}

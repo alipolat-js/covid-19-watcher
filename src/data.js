@@ -10,3 +10,8 @@ export const fetchDailyData = async (country) => {
   const {data} = await axios.get(`${baseEndpoint}/dayone/country/${country}`)
   return data 
 }
+
+export const fetchTotalData = async () => {
+  const {data} = await axios.get(`${baseEndpoint}/world/total`)
+  return data 
+}
