@@ -56,7 +56,7 @@ function App() {
           <h3>Project source code:</h3>
           <a target="blank" href="https://github.com/alipolat-js/covid-19-watcher">github.com/alipolat-js/covid-19-watcher</a>
           <br /><br />
-          <a href='https://wwww.alipolat.tech'>Designed &amp; Developed by Ali POLAT</a>
+          <a href='https://www.alipolat.tech'>Designed &amp; Developed by Ali POLAT</a>
         </div>
       </div>}
 
